@@ -43,8 +43,18 @@ const USER_CONFIG = {
       ],
     },
   ],
+  TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: 'e6e76b8d210c5d1e0033f926dc3e5c84',
 
-
+    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: 1,
+      
+    // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    networkHot: 3,
+  
+    // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
+    networkHotType: 'title',
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'YO8t3cBZ2s71M_W4-yWDG4yq2y6uozOQTeF9AFCbTG4',
 
