@@ -19,9 +19,9 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '懵懵o','来者可追'
+      name: '懵懵o',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oqr2p5tpnq9J5a-CqRYyIM9hRlmg','oqr2p5hPfmjeRvn1ZO5C9OofR9mE'
+      id: 'oqr2p5tpnq9J5a-CqRYyIM9hRlmg',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '_lv54xC5cyG_uyI7crVVv0PIrNORcROMqmKWNXIlaNQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -57,7 +57,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oqr2p5hPfmjeRvn1ZO5C9OofR9mE',
     }
   ],
 
