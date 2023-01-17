@@ -1,8 +1,3 @@
-[📌返回首页 >>>](../../README.md)
-
-# config参数说明
-
-```javascript
 /* eslint-disable */
 const USER_CONFIG = {
   /**
