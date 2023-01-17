@@ -385,8 +385,3 @@ const USER_CONFIG = {
 }
 
 module.exports = USER_CONFIG
-
-
-```
-
-[📌返回首页 >>>](../../README.md)
