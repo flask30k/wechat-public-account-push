@@ -45,36 +45,6 @@ const USER_CONFIG = {
     },
   ],
 
-
-  SWITCH: {
-     /** 每日天气 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: true,
-     /** 每日N句 */
-    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    CIBA: false,
-    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poetry: false,
-     /** 星座运势 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    horoscope: false,
-     /** 学生课表 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    courseSchedule: true,
-  },
-  
-   TIAN_API: {
-    // 天行API KEY，如果使用天行API则需要填写此项
-    key: 'c690b9de2fe9a9b887deee97ae9e7c65',
-      // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: 1,
-  
-    // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 5,
-  
-    // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
-    networkHotType: 'default',
-  },
   
  
   // 课程表相关配置
@@ -145,6 +115,37 @@ const USER_CONFIG = {
         }
       },
     },
+  
+  
+  SWITCH: {
+     /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
+     /** 每日N句 */
+    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    CIBA: false,
+    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poetry: false,
+     /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: false,
+     /** 学生课表 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    courseSchedule: true,
+  },
+  
+   TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: 'c690b9de2fe9a9b887deee97ae9e7c65',
+      // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: 1,
+  
+    // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    networkHot: 5,
+  
+    // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
+    networkHotType: 'default',
+  },
       
       
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
