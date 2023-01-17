@@ -94,7 +94,7 @@ const USER_CONFIG = {
           // 这里设置一个日期，用来作为判断课表是否单双周的依据
           date: '2022-10-14',
           // 该日期是否为单周
-          isOdd: true
+          isOdd: false
         },
         // 课表
         courses: {
