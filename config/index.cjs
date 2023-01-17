@@ -15,10 +15,46 @@ const USER_CONFIG = {
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: false,
+
+    /** 节假日 */
+    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    holidaytts: false,
+
+    /** 每日N句 */
+    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    CIBA: false,
+    
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: false,
+    
+    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: false,
+    
+    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    momentCopyrighting: false,
+    
+    // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poisonChickenSoup: false,
+    
+    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poetry: false,
+
+    /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: false,
+  
+    /** 生日消息和节日消息 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    birthdayMessage: false,
+  
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     courseSchedule: true,
   },
+  
   PROVINCE: '安徽',
   CITY: '淮北',
 
@@ -50,7 +86,7 @@ const USER_CONFIG = {
       ],
     },
   ],
-  // 课程表相关配置
+      // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
       // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
       // 如果courseSchedule是一个对象（如下面所示）
@@ -116,7 +152,7 @@ const USER_CONFIG = {
         }
       },
     },
-  
+      
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'RUbIO1Bv9MClSuPKjlgAYRezq5wHyfuqzsWNWTvpM5o',
   CALLBACK_USERS: [
