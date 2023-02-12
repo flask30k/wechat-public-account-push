@@ -15,7 +15,7 @@ const USER_CONFIG = {
 
 
   PROVINCE: '安徽',
-  CITY: '淮北',
+  CITY: '芜湖',
 
   USERS: [
     {
